@@ -98,7 +98,6 @@ int main()
         cout << "0 - Выход\n";
         cout << "Сделайте свой выбор: ";
         cin >> vibor;
-
         switch (vibor)
         {
         case 1:
@@ -130,7 +129,6 @@ int main()
             system("pause");
             system("cls");
             break;
-
         }
     } while (vibor != 0);
 }
