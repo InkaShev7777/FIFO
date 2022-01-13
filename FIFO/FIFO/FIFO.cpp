@@ -70,9 +70,8 @@ public:
             if (iter != nullptr)
             {
                 Node<T>* ret = new Node<T>(iter);
-                // delete iter;
-                iter = iter->next;
-                this->head = iter;
+                this->head = this->head->next;
+                delete iter;
                 size--;
                 return ret;
             }

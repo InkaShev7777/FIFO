@@ -84,6 +84,6 @@ int main()
 	Node<int>* last = simple.remove();
 	std::cout << last << " " << last->value << "\n";
 	//simple.show();
-	Node<int>* last1 = simple.remove();
-	std::cout << last1 << " " << last1->value << "\n";
+	//Node<int>* last1 = simple.remove();
+	//std::cout << last1 << " " << last1->value << "\n";
 }
